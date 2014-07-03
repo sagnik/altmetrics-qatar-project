@@ -1,0 +1,19 @@
+#Cloning the directory
+follow github instructions
+#Installing openpyxl
+1. go to the openpyxl directory. 
+2. sudo python setup.py install
+#running the code
+input: full path to xlsx file containing article titles from scopus. Assumes that 
+titles are first column in the sheet 'Qatar_Scopus'. 
+output: csv file containing paper titles, citations, possibly free PDF link from web. 
+-------------
+NOTE to HAMED
+-------------
+The excel file you sent me with data from 2010 to 2014 does not have article titles. Please 
+include that. You need to include a column "Title" before the first column in "Qatar_Scopus" sheet.
+Then, split the file in three equal parts (-tarek,-sagnik,-hamed) and upload 
+the splitted files on github. We will run the codes separately.  
+------------
+to run: python getcitationscopus.py <path to the excel file>
+
