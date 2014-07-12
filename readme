@@ -17,3 +17,14 @@ the splitted files on github. We will run the codes separately.
 ------------
 to run: python getcitationscopus.py <path to the excel file>
 
+
+== Using Windows GitHub
+1. go to the openpyxl directory. 
+2. Open GitHub Shell 
+3. python setup.py install
+4. pip install beautifulsoup4 
+5. pip install lxml
+6. python getcitationscopus.py Qatar_Scopus.xlsx
+
+
+
